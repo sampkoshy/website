@@ -11,7 +11,7 @@ function About() {
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.6 }}
         >
-          <p className="section-kicker">About Torque Tyres</p>
+          <p className="section-kicker">About John Tyres</p>
           <h2>Local tyre specialists you can rely on</h2>
           <p className="section-lead">
             We are an independent tyre and wheel care centre focused on honest advice, quality products, and precision

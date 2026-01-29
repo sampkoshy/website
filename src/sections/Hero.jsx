@@ -40,7 +40,7 @@ function Hero() {
               Call Now
             </a>
             <a
-              href="https://maps.google.com?q=Torque+Tyres"
+              href="https://maps.app.goo.gl/9MoEP4eoyQwve8e96s"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline"

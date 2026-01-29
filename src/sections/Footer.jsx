@@ -4,9 +4,9 @@ function Footer() {
       <div className="container footer-inner">
         <div className="footer-brand">
           <div className="logo">
-            <span className="logo-icon">TS</span>
+            <span className="logo-icon">JT</span>
             <div className="logo-text">
-              <span className="logo-title">Torque Tyres</span>
+              <span className="logo-title">John Tyres</span>
               <span className="logo-subtitle">Tyres &amp; Wheel Care</span>
             </div>
           </div>
@@ -51,7 +51,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Torque Tyres. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} John Tyres. All rights reserved.</p>
       </div>
     </footer>
   )

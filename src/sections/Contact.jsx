@@ -63,17 +63,18 @@ function Contact() {
           >
             <div className="contact-details">
               <h3>Visit our shop</h3>
-              <p>Torque Tyres, Main Service Road, Sector 21, Your City, 123456</p>
+              <p>John Tyres,<br/>
+              Kayamkulam - Pathanapuram Rd, Pazhakulam, Pallickal, Peringanad, Kerala 691554</p>
               <p>
                 <strong>Phone:</strong>{' '}
-                <a href="tel:+911234567890" className="text-accent">
-                  +91 12345 67890
+                <a href="tel:+ 9447394555" className="text-accent">
+                9447394555
                 </a>
               </p>
               <p>
                 <strong>WhatsApp:</strong>{' '}
                 <a
-                  href="https://wa.me/911234567890"
+                  href="https://wa.me/9447394555"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-accent"
@@ -84,7 +85,7 @@ function Contact() {
               <p>
                 <strong>Email:</strong>{' '}
                 <a href="mailto:hello@torquetyres.in" className="text-accent">
-                  hello@torquetyres.in
+                  johntyres@gmail.com
                 </a>
               </p>
             </div>
@@ -94,20 +95,19 @@ function Contact() {
               <ul>
                 <li>
                   <span>Mon – Sat</span>
-                  <span>9:00 AM – 8:00 PM</span>
+                  <span>8:30 AM – 8:00 PM</span>
                 </li>
-                <li>
+                {/* <li>
                   <span>Sunday</span>
                   <span>10:00 AM – 4:00 PM</span>
-                </li>
+                </li> */}
               </ul>
             </div>
 
             <div className="contact-map">
               <iframe
-                title="Torque Tyres Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31514.393939!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzE3LjgiTiA3N8KwMzUnNDEuNSJF!5e0!3m2!1sen!2sin!4v1700000000000"
-                loading="lazy"
+                title="John Tyres Location"
+                src="https://maps.app.goo.gl/9MoEP4eoyQwve8e96 "  loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </div>

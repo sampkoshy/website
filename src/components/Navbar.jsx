@@ -20,9 +20,9 @@ function Navbar() {
     >
       <div className="container navbar-inner">
         <div className="logo">
-          <span className="logo-icon">TS</span>
+          <span className="logo-icon">JT</span>
           <div className="logo-text">
-            <span className="logo-title">Torque Tyres</span>
+            <span className="logo-title">JOHN TYRES </span>
             <span className="logo-subtitle">Tyres & Wheel Care</span>
           </div>
         </div>
