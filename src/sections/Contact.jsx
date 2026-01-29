@@ -1,9 +1,35 @@
 import { motion } from 'framer-motion'
 
+
 function Contact() {
+//   const handleSubmit = (e) => {
+//     e.preventDefault()
+//   }
   const handleSubmit = (e) => {
     e.preventDefault()
+  
+    const formData = new FormData(e.target)
+    const data = Object.fromEntries(formData.entries())
+  
+    const message = `
+  Hello John Tyres,
+  
+  New customer enquiry:
+
+  Name: ${data.name}
+  Phone: ${data.phone}
+  Email: ${data.email}
+  Message: ${data.message}
+    `
+  
+    const whatsappNumber = "9562929505" // country code + number (India = 91)
+  
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
+  
+    window.open(url, "_blank")
+    e.target.reset()
   }
+  
 
   return (
     <section id="contact" className="section section-alt">
@@ -49,8 +75,8 @@ function Contact() {
               <label htmlFor="message">Message</label>
               <textarea id="message" name="message" rows="4" placeholder="How can we help?" required />
             </div>
-            <button type="submit" className="btn btn-primary btn-full">
-              Send Message
+            <button type="submit" className="btn btn-primary btn-full" >
+              Send Message on WhatsApp
             </button>
           </motion.form>
 
@@ -115,6 +141,7 @@ function Contact() {
         </div>
       </div>
     </section>
+    
   )
 }
 

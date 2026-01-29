@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
+import whatsapp from '../assets/whatsapp.png'
 
 function FloatingWhatsApp() {
-  const phoneNumber = '+911234567890'
+  const phoneNumber = '+919447394555'
   const message = encodeURIComponent('Hi, I would like to enquire about tyres and wheel services.')
 
   const handleClick = () => {
@@ -17,7 +18,7 @@ function FloatingWhatsApp() {
       transition={{ type: 'spring', stiffness: 260, damping: 20, delay: 0.8 }}
       aria-label="Chat on WhatsApp"
     >
-      <span className="wa-icon">💬</span>
+      <img src={whatsapp} alt="WhatsApp" className="wa-icon" loading="lazy" />
     </motion.button>
   )
 }

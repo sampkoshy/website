@@ -27,8 +27,9 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            From daily commuters to performance machines, we keep your vehicle planted, safe, and ready for every
-            journey.
+            {/* From daily commuters to performance machines, we keep your vehicle planted, safe, and ready for every
+            journey. */}
+            We specialize in selling new truck tyres, SUV tyres, and car tyres, and we are also experts in retreading old truck, JCB, and heavy-duty tyres with advanced technology and skilled workmanship.
           </motion.p>
           <motion.div
             className="hero-actions"
@@ -36,7 +37,7 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            <a href="tel:+911234567890" className="btn btn-primary">
+            <a href="tel:9447394555" className="btn btn-primary">
               Call Now
             </a>
             <a

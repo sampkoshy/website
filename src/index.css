@@ -716,7 +716,7 @@ img {
   height: 3.25rem;
   border-radius: 999px;
   border: none;
-  background: #25d366;
+  /* background: #25d366; */
   color: #ffffff;
   display: flex;
   align-items: center;
