@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll'
 import { motion } from 'framer-motion'
+import ThemeToggle from './ThemeToggle'
 
 const navItems = [
   { to: 'home', label: 'Home' },
@@ -27,22 +28,25 @@ function Navbar() {
           </div>
         </div>
 
-        <nav className="nav-links">
-          {navItems.map((item) => (
-            <Link
-              key={item.to}
-              to={item.to}
-              smooth={true}
-              duration={600}
-              offset={-80}
-              spy={true}
-              className="nav-link"
-              activeClass="nav-link-active"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </nav>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+          <nav className="nav-links">
+            {navItems.map((item) => (
+              <Link
+                key={item.to}
+                to={item.to}
+                smooth={true}
+                duration={600}
+                offset={-80}
+                spy={true}
+                className="nav-link"
+                activeClass="nav-link-active"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+          <ThemeToggle />
+        </div>
       </div>
     </motion.header>
   )

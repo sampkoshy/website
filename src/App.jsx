@@ -12,7 +12,7 @@ import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
-    <div className="app" style={{ minHeight: '100vh', background: '#050507' }}>
+    <div className="app">
       <Navbar />
       <main>
         <Hero />

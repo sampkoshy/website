@@ -58,7 +58,7 @@ function Reviews() {
               </div>
               <p style={{ fontStyle: 'italic', marginBottom: '1.5rem', flexGrow: 1 }}>"{review.text}"</p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                 <h3 style={{ margin: 0, fontSize: '1rem', color: '#fff' }}>{review.name}</h3>
+                 <h3 style={{ margin: 0, fontSize: '1rem' }}>{review.name}</h3>
                  <span style={{ fontSize: '0.8rem', color: '#8a8a8a' }}>{review.date}</span>
               </div>
             </motion.div>

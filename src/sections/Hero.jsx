@@ -41,7 +41,7 @@ function Hero() {
               Call Now
             </a>
             <a
-              href="https://maps.app.goo.gl/9MoEP4eoyQwve8e96s"
+              href="https://maps.app.goo.gl/xgJVkudZ43CRVxC2A"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline"
